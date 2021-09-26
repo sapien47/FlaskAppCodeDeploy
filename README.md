@@ -25,7 +25,7 @@ CI/CD Tools used in this repository:
 
 <img src='img/cicd-flow.png' width='50%' align='center'>
 
-All the project codes are committed in GitHub repository. GitHub Actions will take place once user trigger a push event to the respective repository. It will perform the code build process and run the automated tests. Once it is done, GitHub Actions will run the CD job which will trigger the AWS CodeDeploy to do the deployment part. CodeDeploy will help to automate the deployment by fetching the latest committed code in GitHub and update the project code in the EC2 server...sorry wrong repo
+All the project codes are committed in GitHub repository. GitHub Actions will take place once user trigger a push event to the respective repository. It will perform the code build process and run the automated tests. Once it is done, GitHub Actions will run the CD job which will trigger the AWS CodeDeploy to do the deployment part. CodeDeploy will help to automate the deployment by fetching the latest committed code in GitHub and update the project code in the EC2 server...sorry wrong repo2
 
 
 <a href="https://medium.com/thelorry-product-tech-data/amazon-ec2-deployment-complete-ci-cd-pipeline-using-github-actions-and-aws-codedeploy-8a477123ff7e?source=friends_link&sk=9e7f3de840f32925370f65b097db3674">Click here to see the full article/tutorial!</a>
